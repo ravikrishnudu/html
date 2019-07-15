@@ -1,0 +1,214 @@
+<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	header a{
+		color: #f0f0f0;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: sans-serif;
+		padding: 25px;
+	}
+	header a:hover{
+		background: #45567d;
+	}
+	header{
+		position: fixed;
+		background: #be3144;
+		padding: 25px;
+		padding-left: 1000px;
+		padding-right: 40px;
+	}
+	header > ul {
+		display: flex;
+		justify-content: flex-end;
+		list-style: none;
+	}
+	header > ul > li{
+		padding-left: 5px;
+		padding-right: 10px;
+	}
+
+	.welcome{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #000000;
+		color: #f0f0f0;
+		padding: 200px;
+
+	}
+	h1{
+		color: #f0f0f0;
+		font-family: sans-serif;
+		font-size: 60px;
+	}
+	.welcome > p{
+		font-style: italic;
+		font-family: sans-serif;
+		color: #be3144;
+		font-size: 35px;
+		padding: 20px;
+	}
+	.project{
+		padding-left: 0px;
+		background: #45567d;
+	}
+	h2{
+		text-align: center;
+		color: #f0f0f0;
+		font-size: 40px;
+		font-family: sans-serif;
+		padding: 60px;
+		margin-left: 300px;
+		margin-right: 300px;
+	}
+	.projects-grid{
+		display: grid;
+		grid-template-columns: 380px 380px 380px;
+		grid-gap: 40px;
+		padding: 80px;
+		}
+		
+	.project-image{
+		width: 380px;
+		height: 380px;
+	}
+	.projec-title{
+		text-align: center;
+		color: #f0f0f0;
+		font-family: sans-serif;
+		font-size: 20px;
+		background-color: #303841;
+		padding: 20px;
+		border-radius: 5px;
+	}
+		button{
+			padding: 10px;
+			width: 140px;
+			margin-left: 550px;
+			font-size: 20px;
+			background-color: #303841;
+			color: #f0f0f0;
+			border-color: #303841;
+
+		}
+		button:hover{
+		background: #be3144;
+	}
+	.contact-section{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: #303841;
+		
+	}
+	h4{
+		color: #f0f0f0;
+		font-family: sans-serif;
+		font-size: 60px;
+		margin-top: 150px;
+	}
+	.contact-section-header > p{
+		font-style: italic;
+		font-family: sans-serif;
+		color: #f0f0f0;
+		font-size: 20px;
+		padding: 20px;
+		margin-left: 100px
+	}
+	.contact-links{
+		padding: 40px;
+		font-size: 25px;
+		display: flex;
+		margin-bottom: 100px;
+     }
+	.contact-links > a{
+		color: #f0f0f0;
+		padding-right: 40px;
+		font-family: sans-serif;
+	}
+	.line{
+		border-color: #be3144;
+		border-radius: 10px; 
+	}
+	footer{
+		display: flex;
+		justify-content: space-around;
+		background: #303841;
+		padding: 30px;
+		color: #f0f0f0;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
+	footer > p > a {
+		color: #f0f0f0;
+	}
+</style>
+<header>
+  <ul>
+    <li><a href="#welcome">About</a></li>
+    <li><a  href="#projects">Work</a></li>
+    <li><a  href="#contacts">Contact</a></li>
+  </ul>
+</header>
+<section id="welcome" class="welcome">
+	<h1>Hey I am Mimic</h1>
+	<p>a web developer</p>
+</section>
+
+<section id="projects" class="project">
+	<h2>These are some of my projects<hr></h2>
+	<div class="projects-grid">
+<a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
+<img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="project" />
+ <h3 class="projec-title">Tribute Page</span></h3> </a>
+
+<a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
+<img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="project" /><h3 class="projec-title">Random Quote Machine</h3></a>
+
+<a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
+<img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="project" /><h3 class="projec-title">JavaScript Calculator</h3></a>
+
+<a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
+<img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="project" /><h3 class="projec-title">Map Data Across the Globe</h3></a>
+
+<a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
+<img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" alt="project" /><h3 class="projec-title">Wikipedia Viewer</h3></a>
+
+<a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile">
+<img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" alt="project" /><h3 class="projec-title">Tic Tac Toe Game</h3></a>
+
+<a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank"><button>Show all ></button> </a>
+</div>
+</section>
+
+<section id="contacts" class="contact-section">
+<div class="contact-section-header">
+<h4>Let's work together...</h4>
+<p>How do you take your coffee?</p>
+</div>
+<div class="contact-links">
+	<img src="fb.png">
+	<a href="https://facebook.com/freecodecamp" target="_blank">Facebook</a>
+	<img src="git.png">
+	<a href="https://github.com/freecodecamp" target="_blank">GitHub</a>
+	<img src="twit.png">
+	<a href="https://twitter.com/freecodecamp" target="_blank">Twitter</a>
+	<img src="@.png">
+	<a href="example@example.com" > Send a mail</a>
+	<img src="mob.png">
+	<a href="tel:555-555-5555">call me</a>
+</div>
+</section>
+<hr class="line">
+<footer>
+<p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+<p>&copy; Created for
+<a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <img src="free.png"></a>
+</p>
+</footer>
