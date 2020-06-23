@@ -1,0 +1,16 @@
+body {
+  background-color: #eeeeee;
+  font-family: "Lato", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 250px;
+  height: 45px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
