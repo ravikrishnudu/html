@@ -10,7 +10,3 @@ header {
   width: 250px;
   height: 45px;
 }
-.nav {
-  display: flex;
-  justify-content: space-around;
-}
